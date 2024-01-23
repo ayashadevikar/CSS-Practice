@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+<style>
+     body {
+        background-image: url("img_tree.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-right: 200px;
+        background-attachment: fixed;
+     }
+
+     /* unvisited */
+     a:link {
+        color: red;
+     }
+
+     /* visited */
+      a:link {
+        color: green;
+      }
+
+      /* mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+
+        ul {
+            list-style-image: url('sqpurple.gif');
+        }
+
+        #corner {
+            background: #73AD21;
+            border-radius: 20px 30px 50px 70px;
+            width: 200px;
+            height: 150px; 
+        }
+
+        #grad1 {
+            height: 200px;
+            background-color: red;
+            background-image: linear-gradient(red, yellow);
+        }
+
+       div {
+        width: 300px;
+        height: 100px;
+        padding: 15px;
+        background-color: coral;
+        box-shadow: 10px 10px 10px 20px lightblue;
+       }
+</style>
+
+</head>
+<body>
+    <!-- comments -->
+       <div>Lorem ipsum dolor sit amet.</div>
+        
+       <!-- text-shadow -->
+       <h1 style="color: white; text-shadow: 2px 2px 5px red; font-family: Arial, Helvetica, sans-serif">Text shadow</h1>
+
+       <a href="https://www.google.com/" target="_blank">This is a Link</a>
+
+
+       <ul>
+            <li>coffee</li>
+            <li>tea</li>
+            <li>coca cola</li>
+       </ul>
+
+       <p id="corner"></p>
+
+       <!-- gradient  -->
+       <div id="grad1"></div><br>
+
+       <!-- box shadow -->
+       <div>This is a div element with a box-shadow</div>
+</body>
+</html>
